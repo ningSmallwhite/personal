@@ -1,0 +1,166 @@
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+/* @media screen and (max-width:1190px) {
+
+   
+} */
+
+@media screen and (max-width:750px) {
+    .box {
+        height: 200px !important;
+    }
+    .cont {
+        width: 94% !important;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+    .box .name {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -80%) !important;
+    }
+    
+    .box .funame {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -30%) !important;
+    }
+    .html5 {
+        width: 50% !important;
+        height: 30px !important;
+        line-height: 30px !important;
+        color: #fff;
+        font-size: 16px !important;
+        font-weight: 700;
+        padding-left: 10px;
+        background: -webkit-linear-gradient(left, #84b7f5, #fff);
+    }
+    .h5 {
+        padding: 10px 20px !important;
+        font-size: 12px !important;
+    }
+    .nuanxin{
+        padding: 0 20px !important;
+    }
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.tit {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #2468bb, #6189bb, #afc7e4);
+}
+
+.tit span {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* 内容 */
+.box {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: -webkit-linear-gradient(left, #2468bb, #6189bb, #afc7e4);
+    color: #fff;
+}
+
+
+.box .name {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.box .funame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 纪年 */
+.cont {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.jinian {
+    color: #0d66d6;
+    font-size: 30px;
+    text-align: center;
+}
+
+.jieshao {
+    margin: 50px auto 50px;
+}
+
+.jieshao p {
+    margin: 20px 0;
+}
+
+.rensheng p {
+    color: #0d66d6;
+    margin: 10px 0;
+}
+
+/* 专业技能 */
+.html5 {
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 30px;
+    background: -webkit-linear-gradient(left, #84b7f5, #fff);
+}
+
+.h5 {
+    text-indent: 2em;
+    padding: 20px 50px;
+}
+.nuanxin{
+    padding: 0 50px;
+    text-indent: 2em;
+}
+.use_time {
+    margin-bottom: 20px;
+}
+
+.use_time span {
+    padding-left: 50px;
+}
